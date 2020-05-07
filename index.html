@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="aap.js"></script>
 </head>
 
-<body class="body">
+<body>
 
     <div class="meeting">
         <div class="list">
@@ -42,136 +43,96 @@
 
     </div>
 
-    <div class="navbar-me">        
-        <div class="reset">
-            <img width="180px" src="images\Saylani-logo.png" alt="sylani">
-        </div>
-        <a href="#" class="home">Home</a>
-        <div class="dropdown-me">
-            <button class="dropbtn">
-                About<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content-me">
-                <a href="#">Introduction</a>
-                <a href="#">Chairman Message</a>
-                <a href="#">Saylani Annual Report</a>
-            </div>
-        </div>
-        <div class="dropdown-me">
-            <button class="dropbtn">
-                Saylani Services<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content-me">
-                <a href="#">Education</a>
-                <a href="#">Hajj Application Form</a>
-                <a href="#">Saylani Dastarkhwan</a>
-                <a href="#">Saylani Ro Plant</a>
-                <a href="#">Online Sadqah </a>
-                <a href="#">Online taweezat/Istekhara</a>
-                <a href="#">Saylani job Bank</a>
-            </div>
-        </div>
-        <div class="dropdown-me">
-            <button class="dropbtn">
-                Future Project<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content-me">
-                <a href="#">Saylani University</a>
-                <a href="#">Saylani City</a>
-            </div>
-        </div>
-        <a href="#" class="media">Media</a>
-        <a href="#" class="news">news</a>
-        <div class="dropdown-me">
-            <button class="dropbtn">
-                Donation<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content-me">
-                <a href="#">Bank Details</a>
-                <a href="#">Sadqah</a>
-                <a href="#">Aqiqa</a>
-                <a href="#">Other Donation </a>
-                <a href="#">Corona Effecties</a>
-                <a href="#">Contact Us</a>
-            </div>
-        </div>
-    </div>
+    <div class="second sticky">
+        <div class="saylani-logo"> <img src="images/Saylani-logo.png" alt="Saylani" width="200px"> </div>
+        <div class="pages">
+            <ul id="nav">
+                <li class="nav "><a href="#" class="home">Home</a></li>
+                <li class="nav"><a href="#" class="nav-a">About<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Introduction</a></li>
+                        <li><a href="#">Saylani Chairman Message</a></li>
+                        <li><a href="#">Saylani Annual Report </a></li>
+                    </ul>
+                <li class="nav"><a href="#" class="nav-a">Saylani Services<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Education<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Saylani Mass Training<i class="fa fa-angle-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">SMIT Programs</a></li>
+                                        <li><a href="#">Faculy</a></li>
+                                        <li><a href="#">Result</a></li>
+                                        <li><a href="#">Entry Test Schedule</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Saylani Incubator</a></li>
+                                <li><a href="#">Green House</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Medical<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Saylani Blood Bank</a></li>
+                                <li><a href="#">Saylani Clinic/Hospital</a></li>
+                                <li><a href="#">Medical Internship Form</a></li>
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="reset">
-            <img width="180px" src="images\Saylani-logo.png" alt="sylani">
-        </div>
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link Home" href="#">Home <span class="sr-only">(current)</span></a>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">Welfare<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Family Adoption</a></li>
+                                <li><a href="#">Wedding Help</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Hajj Application Form</li>
+                        <li><a href="#">Saylani Dastarkhwan</a></li>
+                        <li><a href="#">Saylani RO Plant</a></li>
+                        <li><a href="#">Online Sadqah</a></li>
+                        <li><a href="#">Online Taweezaat/Istekhara</a></li>
+                        <li><a href="#">Saylani Job Bank</a></li>
+                        <li><a href="#">Online Quran Academy<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Online Quran Admission</a></li>
+                                <li><a href="#">Quran App(Tafteesh)</a></li>
+                                <li><a href="#">Online Quran Registeration</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Saylani Online Masjid</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Introduction</a>
-                        <a class="dropdown-item" href="#">Chairman Message</a>
-                        <a class="dropdown-item" href="#">Saylani Annual Report</a>
-                    </div>
+                <li class="nav"><a href="#" class="nav-a">Future Projects<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Saylani University</a></li>
+                        <li><a href="#">Saylani City</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Sylani Servises
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Hajj Application Form</a>
-                        <a class="dropdown-item" href="#">Sylani Dastar Khwan</a>
-                        <a class="dropdown-item" href="#">Sylani RO Plant</a>
-                        <a class="dropdown-item" href="#">Online sadqah</a>
-                        <a class="dropdown-item" href="#">Online taweezat</a>
-                        <a class="dropdown-item" href="#">Sylani job bank</a>
-                        <a class="dropdown-item" href="#">Books</a>
-                        <a class="dropdown-item" href="#">Sylani Online Masjjid</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Future Project
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Sylani University</a>
-                        <a class="dropdown-item" href="#">Sylani City</a>
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Media <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">News<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Donation
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Bank Details</a>
-                        <a class="dropdown-item" href="#">Sadqa</a>
-                        <a class="dropdown-item" href="#">Aqiqa</a>
-                        <a class="dropdown-item" href="#">Other Donation</a>
-                        <a class="dropdown-item" href="#">Corona Effecties</a>
-                        <a class="dropdown-item" href="#">Contact us</a>
-                    </div>
+                <li class="nav"><a href="#" class="nav-a">Media</a></li>
+                <li class="nav"><a href="#" class="nav-a">News</a></li>
+                <li class="nav"><a href="#" class="nav-a">Donations<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Bank Details</a></li>
+                        <li><a href="#">Sadqah</a></li>
+                        <li><a href="#">Aqiqa</a></li>
+                        <li><a href="#">Other Donation</a></li>
+                        <li><a href="#">Corona Effecties</a></li>
+                        <li><a href="#">Ramzan-2020<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">For Saudi Donor</a></li>
+                                <li><a href="#">For Europe Donor</a></li>
+                                <li><a href="#">For UK Donor</a></li>
+                                <li><a href="#">For USA Donor</a></li>
+                                <li><a href="#">For UAE Donor</a></li>
+                                <li><a href="#">For PAK Donor</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
-    </nav> -->
-
+    </div>
     <div>
         <img src="images\s.trust.jpg" alt="image" class="trust">
 
@@ -292,7 +253,7 @@
         </div>
         <div class="online">
             <div class="div-6">
-                <div class="one-one"> <img width="70px" src="images/onlinesadqah (1).png" alt="" class="home"> <br>
+                <div class="one-one"> <img width="70px" src="images/onlinesadqah (1).png" alt="" class="ghar"> <br>
                     ONLINE SADQAH</div>
                 <div class="two"><img width="70px" src="images\welfare.png" alt="" class="spoon">
                     <br>
@@ -390,15 +351,15 @@
             </div>
         </div>
     </div>
+    <button class="top-btn"><a href="#" class="fa fa-angle-up"></a></button>
     <div class="last">
         <p class="copy">
             Copyright © 2020 Saylani Welfare
-            <a href="#">
-                <img width="50px" height="50px" src="images\top.png" alt="" class="top"></a>
         </p>
     </div>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -406,7 +367,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script>
 
 </body>
 
